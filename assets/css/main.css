@@ -1,0 +1,36 @@
+/*CSS GENERADO POR LIVE SASS y se aprecia que las etiquetas se cierran como se nos enseño*/
+/*modificacion fuente*/
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+/*modificacion colores*/
+/*clase ignorada por css*/
+@import url("/node_modules/bootstrap/scss/bootstrap.scss");
+.paquete, .card-body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.paquete1, .card-body {
+  border: 10px;
+  border-style: solid;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-body h5 {
+  font-family: "Moon Dance", cursive;
+  color: rgb(83, 167, 201);
+}
+
+.card-body p {
+  color: yellow;
+  font-weight: 400;
+}
+
+.card-body .btn {
+  background-color: purple;
+  color: rgb(255, 136, 0);
+}/*# sourceMappingURL=main.css.map */

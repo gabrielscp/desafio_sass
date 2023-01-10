@@ -1,0 +1,61 @@
+/*modificacion fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+$font-family-base: 'Moon Dance', cursive;
+/*modificacion colores*/
+
+$primary: rgb(255, 136, 0);
+$secondary: purple;
+$success: black;
+$larry: rgb(83, 167, 201);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "larry": $larry,
+
+);
+
+/*clase ignorada por css*/
+$pcolor: yellow;
+
+@import url("/node_modules/bootstrap/scss/bootstrap.scss");
+
+.paquete {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.paquete1 {
+    border: 10px;
+    border-style: solid;
+}
+
+
+.card-body {
+    background-color: $success;
+    @extend .paquete;
+    @extend .paquete1;
+
+
+}
+.card-body h5{
+    font-family: $font-family-base ;
+    color: $larry;
+}
+
+.card-body p{
+    color: $pcolor;
+    font-weight: 400;
+}
+
+.card-body{
+    .btn{
+        background-color: $secondary;
+        color: $primary;
+    }
+    
+}

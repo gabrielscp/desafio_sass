@@ -1,0 +1,30 @@
+/*CSS GENERADO POR TERMINAL EXTERNO y las eiquetas se cierran de forma distinta*/
+/*modificacion fuente*/
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+/*modificacion colores*/
+/*clase ignorada por css*/
+@import url("/node_modules/bootstrap/scss/bootstrap.scss");
+.paquete, .card-body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center; }
+
+.paquete1, .card-body {
+  border: 10px;
+  border-style: solid; }
+
+.card-body {
+  background-color: black; }
+
+.card-body h5 {
+  font-family: "Moon Dance", cursive;
+  color: #53a7c9; }
+
+.card-body p {
+  color: yellow;
+  font-weight: 400; }
+
+.card-body .btn {
+  background-color: purple;
+  color: #ff8800; }
